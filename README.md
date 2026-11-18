@@ -9,7 +9,7 @@ O objetivo deste repositório é centralizar os links para os repositórios e as
 | Identificação | Laboratório | Serviço | Repositório | Página |
 |---|---|---|---|---|
 | Lab 11 | Introdução ao Amazon EC2 | EC2 | [GitHub](https://github.com/brunogacarvalho/lab-11-introducao-ec2) | [Abrir página](https://brunogacarvalho.github.io/lab-11-introducao-ec2/) |
-| Lab 160 | Amazon RDS | RDS | [GitHub](https://github.com/brunogacarvalho/lab-160-amazon-rds) | Em preparação |
+| Lab 160 | Amazon RDS | RDS | [GitHub](https://github.com/brunogacarvalho/lab-160-amazon-rds) | [Abrir página](https://brunogacarvalho.github.io/lab-160-amazon-rds/) |
 | Lab 168 | Instalar e Configurar AWS CLI | AWS CLI | [GitHub](https://github.com/brunogacarvalho/lab-168-instalar-configurar-aws-cli) | [Abrir página](https://brunogacarvalho.github.io/lab-168-instalar-configurar-aws-cli/) |
 | Lab 169 | AWS Systems Manager | Systems Manager | [GitHub](https://github.com/brunogacarvalho/lab-169-using-aws-systems-manager) | [Abrir página](https://brunogacarvalho.github.io/lab-169-using-aws-systems-manager/) |
 | Lab 170 | Website no Amazon S3 | S3 | [GitHub](https://github.com/brunogacarvalho/lab-170-criando-website-amazon-s3) | [Abrir página](https://brunogacarvalho.github.io/lab-170-criando-website-amazon-s3/) |
@@ -19,13 +19,13 @@ O objetivo deste repositório é centralizar os links para os repositórios e as
 
 ## Laboratório extra
 
-| Identificação | Laboratório | Serviço | Repositório | Documentação |
+| Identificação | Laboratório | Serviço | Repositório | Página |
 |---|---|---|---|---|
-| Extra 01 | Amazon DynamoDB | DynamoDB | [GitHub](https://github.com/brunogacarvalho/lab-extra-01-amazon-dynamodb) | [Abrir página](https://brunogacarvalho.github.io/lab-extra-01-amazon-dynamodb/) |
+| Extra 01 | Amazon DynamoDB                | DynamoDB | [GitHub](https://github.com/brunogacarvalho/lab-extra-01-amazon-dynamodb) | [Abrir página](https://brunogacarvalho.github.io/lab-extra-01-amazon-dynamodb/) |
 
-## Site do portfólio
+## Site com Índice de Laboratórios
 
-**[Acessar AWS Labs Portfolio](https://brunogacarvalho.github.io/aws-labs-portfolio/)**
+**[Acessar AWS Índice de Laboratórios](https://brunogacarvalho.github.io/aws-labs-portfolio/)**
 
 ## Créditos
 
