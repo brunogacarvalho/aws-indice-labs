@@ -23,13 +23,13 @@ O objetivo deste repositório é centralizar os links para os repositórios e as
 |---|---|---|---|---|
 | Extra 01 | Amazon DynamoDB | DynamoDB | [GitHub](https://github.com/brunogacarvalho/lab-extra-01-amazon-dynamodb) | [Abrir página](https://brunogacarvalho.github.io/lab-extra-01-amazon-dynamodb/) |
 
-## Site do portfólio
+## Site do Índice de Laboratórios
 
 **[Acessar AWS Labs - Índice de Laboratórios](https://brunogacarvalho.github.io/aws-labs/)**
 
 ## Créditos
 
-Os laboratórios da formação foram realizados no contexto dos estudos da [Escola da Nuvem](https://escoladanuvem.org/). Agradeço também ao professor **Raphael Ohlsen** pelas orientações e pelo conteúdo compartilhado durante a formação.
+Os laboratórios da formação foram realizados no contexto dos estudos da [Escola da Nuvem](https://escoladanuvem.org/). Agradeço também ao professor [Raphael Ohlsen](https://br.linkedin.com/in/raphael-ohlsen)  pelas orientações e pelo conteúdo compartilhado durante a formação.
 
 O laboratório extra é apresentado separadamente da sequência oficial numerada.
 
