@@ -23,7 +23,7 @@
 
 ## Site do Índice de Laboratórios
 
-**[Acessar AWS Labs - Índice de Laboratórios](https://brunogacarvalho.github.io/aws-labs/)**
+**[Acessar AWS Labs - Índice de Laboratórios](https://brunogacarvalho.github.io/aws-indice-labs/)**
 
 ## Créditos
 
