@@ -3,53 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Catálogo de laboratórios práticos em AWS Cloud Computing.">
-  <title>AWS Labs Portfolio | Bruno Carvalho</title>
+  <meta name="description" content="Índice de laboratórios práticos em AWS Cloud Computing.">
+  <meta name="theme-color" content="#0b1220">
+  <title>AWS Labs - Índice de Laboratórios</title>
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body data-theme="dark">
 
   <header class="site-header">
-    <a href="#" class="site-title">AWS Labs Portfolio</a>
-    <a href="https://github.com/brunogacarvalho/aws-labs-portfolio"
-       target="_blank" rel="noreferrer">Repositório GitHub ↗</a>
+    <a href="#" class="site-title">AWS Labs</a>
+
+    <nav class="header-actions">
+      <a href="https://github.com/brunogacarvalho/aws-labs"
+         target="_blank" rel="noreferrer">GitHub ↗</a>
+      <button id="theme-toggle" type="button" aria-label="Alternar tema">
+        ☀
+      </button>
+    </nav>
   </header>
 
   <main>
-    <section class="introduction">
-      <h1>Laboratórios AWS</h1>
-      <p>
-        Catálogo dos laboratórios práticos realizados durante meus estudos
-        em computação em nuvem, com links para os repositórios e respectivas
-        documentações.
-      </p>
-    </section>
-
     <section id="laboratorios">
-      <h2>Laboratórios</h2>
-      <p class="section-description">
-        Laboratórios identificados pela numeração oficial.
-      </p>
+      <h1>Laboratórios</h1>
 
-      <div class="catalog-controls">
-        <input
-          id="search"
-          type="search"
-          placeholder="Buscar por número, nome ou serviço..."
-          aria-label="Buscar laboratório"
-        >
-
-        <div class="filters" id="filters" aria-label="Filtrar por categoria">
-          <button class="filter active" data-filter="Todos">Todos</button>
-          <button class="filter" data-filter="Computação">Computação</button>
-          <button class="filter" data-filter="Rede">Rede</button>
-          <button class="filter" data-filter="Segurança">Segurança</button>
-          <button class="filter" data-filter="Armazenamento">Armazenamento</button>
-          <button class="filter" data-filter="Banco de dados">Banco de dados</button>
-          <button class="filter" data-filter="Ferramentas">Ferramentas</button>
-          <button class="filter" data-filter="Gerenciamento">Gerenciamento</button>
-        </div>
+      <div class="filters" id="filters" aria-label="Filtrar por categoria">
+        <button class="filter active" data-filter="Todos">Todos</button>
+        <button class="filter" data-filter="Computação">Computação</button>
+        <button class="filter" data-filter="Rede">Rede</button>
+        <button class="filter" data-filter="Segurança">Segurança</button>
+        <button class="filter" data-filter="Armazenamento">Armazenamento</button>
+        <button class="filter" data-filter="Banco de dados">Banco de dados</button>
+        <button class="filter" data-filter="Ferramentas">Ferramentas</button>
+        <button class="filter" data-filter="Gerenciamento">Gerenciamento</button>
       </div>
 
       <div id="lab-list" class="lab-list"></div>
@@ -60,15 +46,11 @@
 
     <section id="extras" class="extra-section">
       <h2>Laboratório extra</h2>
-      <p class="section-description">
-        Atividade complementar apresentada separadamente da sequência numerada.
-      </p>
       <div id="extra-list" class="lab-list"></div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p>Bruno Carvalho · AWS Labs Portfolio</p>
     <p>
       Formação: <a href="https://escoladanuvem.org/" target="_blank" rel="noreferrer">Escola da Nuvem</a>
       · Professor Raphael Ohlsen

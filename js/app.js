@@ -4,7 +4,6 @@ let activeFilter = "Todos";
 
 const labList = document.querySelector("#lab-list");
 const extraList = document.querySelector("#extra-list");
-const searchInput = document.querySelector("#search");
 const emptyState = document.querySelector("#empty-state");
 
 function createLabItem(item) {
@@ -48,51 +47,30 @@ function createLink(url, label) {
 
 function createDisabled(label) {
   const span = document.createElement("span");
-  span.className = "disabled";
+  span.className = "link-disabled";
   span.textContent = label;
   return span;
 }
 
-function matchesSearch(item, query) {
-  const content = [
-    item.number,
-    item.title,
-    item.service,
-    item.category,
-    item.description
-  ].join(" ").toLocaleLowerCase("pt-BR");
-
-  return content.includes(query);
-}
-
 function render() {
-  const query = searchInput.value.trim().toLocaleLowerCase("pt-BR");
-
-  const filteredLabs = allLabs.filter(item => {
-    const matchesCategory =
-      activeFilter === "Todos" || item.category === activeFilter;
-
-    return matchesCategory && matchesSearch(item, query);
-  });
+  const filteredLabs = allLabs.filter(item =>
+    activeFilter === "Todos" || item.category === activeFilter
+  );
 
   const filteredExtras = extraLabs.filter(item =>
-    matchesSearch(item, query)
+    activeFilter === "Todos" || item.category === activeFilter
   );
 
   labList.replaceChildren(...filteredLabs.map(createLabItem));
   extraList.replaceChildren(...filteredExtras.map(createLabItem));
 
-  emptyState.hidden =
-    filteredLabs.length > 0 || filteredExtras.length > 0;
-
+  emptyState.hidden = filteredLabs.length > 0;
   document.querySelector("#extras").hidden = filteredExtras.length === 0;
 }
 
 fetch("data/labs.json")
   .then(response => {
-    if (!response.ok) {
-      throw new Error("Não foi possível carregar os dados do catálogo.");
-    }
+    if (!response.ok) throw new Error("Não foi possível carregar os laboratórios.");
     return response.json();
   })
   .then(data => {
@@ -104,10 +82,8 @@ fetch("data/labs.json")
     labList.textContent = error.message;
   });
 
-searchInput.addEventListener("input", render);
-
 document.querySelector("#filters").addEventListener("click", event => {
-  const button = event.target.closest("button[data-filter]");
+  const button = event.target.closest(".filter");
   if (!button) return;
 
   activeFilter = button.dataset.filter;
@@ -119,12 +95,12 @@ document.querySelector("#filters").addEventListener("click", event => {
   render();
 });
 
-// Alternância entre modo escuro e claro
 const themeToggle = document.querySelector("#theme-toggle");
 
 themeToggle.addEventListener("click", () => {
-  const isDark = document.body.dataset.theme === "dark";
+  const currentTheme = document.body.dataset.theme;
+  const newTheme = currentTheme === "dark" ? "light" : "dark";
 
-  document.body.dataset.theme = isDark ? "light" : "dark";
-  themeToggle.textContent = isDark ? "☾ Modo escuro" : "☀ Modo claro";
+  document.body.dataset.theme = newTheme;
+  themeToggle.textContent = newTheme === "dark" ? "☀" : "☾";
 });
