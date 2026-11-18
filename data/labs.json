@@ -1,0 +1,105 @@
+{
+  "labs": [
+    {
+      "id": "lab-11",
+      "number": "Lab 11",
+      "title": "Introdução ao Amazon EC2",
+      "service": "Amazon EC2",
+      "category": "Computação",
+      "description": "Laboratório prático de introdução à criação e configuração de instâncias EC2.",
+      "repository": "https://github.com/brunogacarvalho/lab-11-introducao-ec2",
+      "page": "https://brunogacarvalho.github.io/lab-11-introducao-ec2/",
+      "status": "Disponível"
+    },
+    {
+      "id": "lab-160",
+      "number": "Lab 160",
+      "title": "Amazon RDS",
+      "service": "Amazon RDS",
+      "category": "Banco de dados",
+      "description": "Laboratório prático relacionado ao serviço gerenciado de bancos de dados Amazon RDS.",
+      "repository": "https://github.com/brunogacarvalho/lab-160-amazon-rds",
+      "page": null,
+      "status": "Repositório disponível"
+    },
+    {
+      "id": "lab-168",
+      "number": "Lab 168",
+      "title": "Instalar e Configurar AWS CLI",
+      "service": "AWS CLI",
+      "category": "Ferramentas",
+      "description": "Instalação e configuração da interface de linha de comando da AWS.",
+      "repository": "https://github.com/brunogacarvalho/lab-168-instalar-configurar-aws-cli",
+      "page": "https://brunogacarvalho.github.io/lab-168-instalar-configurar-aws-cli/",
+      "status": "Disponível"
+    },
+    {
+      "id": "lab-169",
+      "number": "Lab 169",
+      "title": "AWS Systems Manager",
+      "service": "AWS Systems Manager",
+      "category": "Gerenciamento",
+      "description": "Práticas com Inventory, Run Command, Parameter Store e Session Manager.",
+      "repository": "https://github.com/brunogacarvalho/lab-169-using-aws-systems-manager",
+      "page": "https://brunogacarvalho.github.io/lab-169-using-aws-systems-manager/",
+      "status": "Disponível"
+    },
+    {
+      "id": "lab-170",
+      "number": "Lab 170",
+      "title": "Website no Amazon S3",
+      "service": "Amazon S3",
+      "category": "Armazenamento",
+      "description": "Criação e hospedagem de um website estático utilizando Amazon S3 e AWS CLI.",
+      "repository": "https://github.com/brunogacarvalho/lab-170-criando-website-amazon-s3",
+      "page": "https://brunogacarvalho.github.io/lab-170-criando-website-amazon-s3/",
+      "status": "Disponível"
+    },
+    {
+      "id": "lab-171",
+      "number": "Lab 171",
+      "title": "Criação de instâncias EC2",
+      "service": "Amazon EC2",
+      "category": "Computação",
+      "description": "Laboratório realizado fora desta sequência de documentação. Detalhes e links serão adicionados posteriormente.",
+      "repository": null,
+      "page": null,
+      "status": "A cadastrar"
+    },
+    {
+      "id": "lab-267",
+      "number": "Lab 267",
+      "title": "Criar VPC e lançar servidor web",
+      "service": "Amazon VPC",
+      "category": "Rede",
+      "description": "Criação de VPC, sub-redes e componentes de rede para disponibilizar um servidor web.",
+      "repository": "https://github.com/brunogacarvalho/lab-267-vpc-web-server",
+      "page": "https://brunogacarvalho.github.io/lab-267-vpc-web-server/",
+      "status": "Disponível"
+    },
+    {
+      "id": "lab-279",
+      "number": "Lab 279",
+      "title": "Introdução ao AWS IAM",
+      "service": "AWS IAM",
+      "category": "Segurança",
+      "description": "Práticas introdutórias de gerenciamento de identidades, usuários, grupos e permissões.",
+      "repository": "https://github.com/brunogacarvalho/lab-279-introducao-iam",
+      "page": "https://brunogacarvalho.github.io/lab-279-introducao-iam/",
+      "status": "Disponível"
+    }
+  ],
+  "extras": [
+    {
+      "id": "extra-01",
+      "number": "Extra 01",
+      "title": "Amazon DynamoDB",
+      "service": "Amazon DynamoDB",
+      "category": "Banco de dados",
+      "description": "Atividade complementar de prática com banco de dados NoSQL gerenciado pela AWS.",
+      "repository": "https://github.com/brunogacarvalho/lab-extra-01-amazon-dynamodb",
+      "page": "https://brunogacarvalho.github.io/lab-extra-01-amazon-dynamodb/",
+      "status": "Disponível"
+    }
+  ]
+}
