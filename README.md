@@ -1,4 +1,4 @@
-# AWS Labs Portfolio
+# AWS Labs - Índice de Laboratórios
 
 Catálogo dos meus laboratórios práticos em AWS Cloud Computing, reunindo atividades realizadas durante meus estudos na Escola da Nuvem e atividades complementares.
 
@@ -6,7 +6,7 @@ O objetivo deste repositório é centralizar os links para os repositórios e as
 
 ## Laboratórios
 
-| Identificação | Laboratório | Serviço | Repositório | Documentação |
+| Identificação | Laboratório | Serviço | Repositório | Página |
 |---|---|---|---|---|
 | Lab 11 | Introdução ao Amazon EC2 | EC2 | [GitHub](https://github.com/brunogacarvalho/lab-11-introducao-ec2) | [Abrir página](https://brunogacarvalho.github.io/lab-11-introducao-ec2/) |
 | Lab 160 | Amazon RDS | RDS | [GitHub](https://github.com/brunogacarvalho/lab-160-amazon-rds) | Em preparação |
