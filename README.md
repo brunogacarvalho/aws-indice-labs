@@ -1,8 +1,6 @@
 # AWS Labs - Índice de Laboratórios
 
-Catálogo dos meus laboratórios práticos em AWS Cloud Computing, reunindo atividades realizadas durante meus estudos na Escola da Nuvem e atividades complementares.
-
-O objetivo deste repositório é centralizar os links para os repositórios e as documentações de cada laboratório.
+Índice dos laboratórios práticos realizados durante o programa **AWS re/Start**, oferecido pela AWS em parceria com a Escola da Nuvem. Reúne os links para os repositórios e as páginas de cada atividade, além de laboratórios complementares.
 
 ## Laboratórios
 
