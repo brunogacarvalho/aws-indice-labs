@@ -12,7 +12,7 @@
 | Lab 169 | AWS Systems Manager | Systems Manager | [GitHub](https://github.com/brunogacarvalho/lab-169-using-aws-systems-manager) | [Abrir página](https://brunogacarvalho.github.io/lab-169-using-aws-systems-manager/) |
 | Lab 170 | Website no Amazon S3 | S3 | [GitHub](https://github.com/brunogacarvalho/lab-170-criando-website-amazon-s3) | [Abrir página](https://brunogacarvalho.github.io/lab-170-criando-website-amazon-s3/) |
 | Lab 171 | Criação de instâncias EC2 | EC2 | [GitHub](https://github.com/brunogacarvalho/lab-171-criacao-instancias-ec2) | [Abrir página](https://brunogacarvalho.github.io/lab-171-criacao-instancias-ec2/) |
-| Lab 172 | A cadastrar | A cadastrar | A cadastrar | A cadastrar |
+| Lab 172 | Amazon EC2 Instances (Challenge) | EC2, VPC | [GitHub](https://github.com/brunogacarvalho/lab-172-amazon-ec2-instances-challenge) | [Abrir página](https://brunogacarvalho.github.io/lab-172-amazon-ec2-instances-challenge/) |
 | Lab 173 | A cadastrar | A cadastrar | A cadastrar | A cadastrar |
 | Lab 267 | Criar VPC e lançar servidor web | VPC | [GitHub](https://github.com/brunogacarvalho/lab-267-vpc-web-server) | [Abrir página](https://brunogacarvalho.github.io/lab-267-vpc-web-server/) |
 | Lab 279 | Introdução ao AWS IAM | IAM | [GitHub](https://github.com/brunogacarvalho/lab-279-introducao-iam) | [Abrir página](https://brunogacarvalho.github.io/lab-279-introducao-iam/) |
