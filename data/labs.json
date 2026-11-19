@@ -62,9 +62,9 @@
       "service": "Amazon EC2",
       "category": "Computação",
       "description": "Laboratório realizado fora desta sequência de documentação. Detalhes e links serão adicionados posteriormente.",
-      "repository": null,
-      "page": null,
-      "status": "A cadastrar"
+      "repository": "https://github.com/brunogacarvalho/lab-171-criacao-instancias-ec2",
+      "page": "https://brunogacarvalho.github.io/aws-indice-labs/",
+      "status": "Disponível"
     },
     {
       "id": "lab-267",
