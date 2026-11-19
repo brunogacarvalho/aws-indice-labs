@@ -73,7 +73,7 @@
   "service": "Amazon EC2, Amazon VPC",
   "category": "Computação",
   "description": "Configuração de VPC e subnet pública, provisionamento de instância EC2 e implantação de aplicação web com Apache.",
-  "repository": "https://github.com/brunogacarvalho/amazon-ec2-instances-challenge",
+  "repository": "https://github.com/brunogacarvalho/lab-172-amazon-ec2-instances-challenge",
   "page": "https://brunogacarvalho.github.io/amazon-ec2-instances-challenge/",
   "status": "Disponível"
 },
