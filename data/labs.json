@@ -101,6 +101,17 @@
       "status": "Disponível"
     },
     {
+      "id": "lab-175",
+      "number": "Lab 175",
+      "title": "Utilizando Auto Scaling na AWS (Linux)",
+      "service": "Amazon EC2, Elastic Load Balancing, EC2 Auto Scaling",
+      "category": "Computação",
+      "description": "Criação de AMI, Application Load Balancer e Auto Scaling Group para ajustar automaticamente a capacidade de instâncias EC2 conforme a demanda.",
+      "repository": "https://github.com/brunogacarvalho/lab-175-utilizando-auto-scaling-aws",
+      "page": "https://brunogacarvalho.github.io/lab-175-utilizando-auto-scaling-aws/",
+      "status": "Disponível"
+    },
+    {
       "id": "lab-267",
       "number": "Lab 267",
       "title": "Criar VPC e lançar servidor web",
