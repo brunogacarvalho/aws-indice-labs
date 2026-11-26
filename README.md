@@ -15,6 +15,7 @@
 | Lab 172 | Amazon EC2 Instances (Challenge) | EC2, VPC | [GitHub](https://github.com/brunogacarvalho/lab-172-amazon-ec2-instances-challenge) | [Abrir página](https://brunogacarvalho.github.io/lab-172-amazon-ec2-instances-challenge/) |
 | Lab 173 | Solução de problemas na criação de instâncias EC2 | EC2 | [GitHub](https://github.com/brunogacarvalho/lab-173-troubleshooting-ec2) | [Abrir página](https://brunogacarvalho.github.io/lab-173-troubleshooting-ec2/) |
 | Lab 174 | Balanceamento de carga e escalabilidade | EC2, Auto Scaling, CloudWatch, Elastic Load Balancing | [GitHub](https://github.com/brunogacarvalho/lab-174-escalando-balanceando-carga) | [Abrir página](https://brunogacarvalho.github.io/lab-174-escalando-balanceando-carga/) |
+| Lab 175 | Utilizando Auto Scaling na AWS (Linux) | EC2, Auto Scaling, Elastic Load Balancing | [GitHub](https://github.com/brunogacarvalho/lab-175-utilizando-auto-scaling-aws) | [Abrir página](https://brunogacarvalho.github.io/lab-175-utilizando-auto-scaling-aws/) |
 | Lab 267 | Criar VPC e lançar servidor web | VPC | [GitHub](https://github.com/brunogacarvalho/lab-267-vpc-web-server) | [Abrir página](https://brunogacarvalho.github.io/lab-267-vpc-web-server/) |
 | Lab 279 | Introdução ao AWS IAM | IAM | [GitHub](https://github.com/brunogacarvalho/lab-279-introducao-iam) | [Abrir página](https://brunogacarvalho.github.io/lab-279-introducao-iam/) |
 
