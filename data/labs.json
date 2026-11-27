@@ -134,17 +134,28 @@
       "status": "Disponível"
     }
   ],
-  "extras": [
-    {
-      "id": "extra-01",
-      "number": "Extra 01",
-      "title": "Amazon DynamoDB",
-      "service": "Amazon DynamoDB",
-      "category": "Banco de dados",
-      "description": "Atividade complementar de prática com banco de dados NoSQL gerenciado pela AWS.",
-      "repository": "https://github.com/brunogacarvalho/lab-extra-01-amazon-dynamodb",
-      "page": "https://brunogacarvalho.github.io/lab-extra-01-amazon-dynamodb/",
-      "status": "Disponível"
-    }
-  ]
+"extras": [
+  {
+    "id": "extra-01",
+    "number": "Extra 01",
+    "title": "Amazon DynamoDB",
+    "service": "Amazon DynamoDB",
+    "category": "Banco de dados",
+    "description": "Atividade complementar de prática com banco de dados NoSQL gerenciado pela AWS.",
+    "repository": "https://github.com/brunogacarvalho/lab-extra-01-amazon-dynamodb",
+    "page": "https://brunogacarvalho.github.io/lab-extra-01-amazon-dynamodb/",
+    "status": "Disponível"
+  },
+  {
+    "id": "extra-02",
+    "number": "Extra 02",
+    "title": "Hospedagem de site estático com Amazon S3 e CloudFront",
+    "service": "Amazon S3, Amazon CloudFront",
+    "category": "Armazenamento e distribuição de conteúdo",
+    "description": "Hospedagem de site estático com arquivos armazenados no Amazon S3 e distribuídos pelo CloudFront.",
+    "repository": "https://github.com/brunogacarvalho/lab-extra-02-s3-cloudfront",
+    "page": "https://brunogacarvalho.github.io/lab-extra-02-s3-cloudfront/",
+    "status": "Disponível"
+  }
+]
 }

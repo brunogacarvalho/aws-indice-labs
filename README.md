@@ -24,6 +24,7 @@
 | **Identificação** | **Laboratório** | **Serviço** | **Repositório** | **Página** |
 |---|---|---|---|---|
 | Extra 01 | Amazon DynamoDB | DynamoDB | [GitHub](https://github.com/brunogacarvalho/lab-extra-01-amazon-dynamodb) | [Abrir página](https://brunogacarvalho.github.io/lab-extra-01-amazon-dynamodb/) |
+| Extra 02 | Hospedagem de site estático com Amazon S3 e CloudFront | S3, CloudFront | [GitHub](https://github.com/brunogacarvalho/lab-extra-02-s3-cloudfront) | [Abrir página](https://brunogacarvalho.github.io/lab-extra-02-s3-cloudfront/) |
 
 ## Site do Índice de Laboratórios
 
